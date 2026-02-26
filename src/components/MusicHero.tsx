@@ -24,10 +24,10 @@ export function MusicHero() {
             <div className="text-white font-display font-bold text-2xl sm:text-3xl md:text-4xl uppercase tracking-tight">
               MUSIK
             </div>
-            <div className="text-accent-yellow font-condensed font-semibold text-sm sm:text-base md:text-lg uppercase tracking-wide mt-1">
+            <div className="text-accent-yellow font-display font-semibold text-sm sm:text-base md:text-lg uppercase tracking-wide mt-1">
               VED VANDTÅRNET
             </div>
-            <div className="text-white font-condensed font-medium text-xs sm:text-sm uppercase tracking-wider mt-1">
+            <div className="text-white font-display font-medium text-xs sm:text-sm uppercase tracking-wider mt-1">
               PRÆSENTERER
             </div>
           </div>

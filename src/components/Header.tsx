@@ -56,7 +56,7 @@ export function Header() {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: 4 }}
               transition={{ duration: 0.35 }}
-              className="text-[11px] font-condensed font-semibold uppercase tracking-wider sm:text-xs text-center"
+              className="text-[11px] font-display font-bold uppercase tracking-wider sm:text-xs text-center"
             >
               {topbarText}
             </motion.p>

@@ -4,15 +4,15 @@
 
 @layer base {
   :root {
-    /* Plakat 1 & 2: dyb teal, mørkerød, guldbelg */
-    --background: 171 36% 30%;
+    /* DJ Lounge Festival 7200 – plakatens farver (hex: #2F635D, #8C2C2C, #D9B75B) */
+    --background: 173 36% 29%;
     --foreground: 0 0% 100%;
-    --accent-yellow: 43 60% 60%;
-    --accent-red: 0 52% 35%;
+    --accent-yellow: 43 61% 60%;
+    --accent-red: 0 52% 36%;
     --illustration-light: 172 17% 52%;
     --illustration-medium: 177 24% 82%;
     --illustration-beige: 35 35% 75%;
-    --border: 171 30% 38%;
+    --border: 173 32% 36%;
   }
 }
 
