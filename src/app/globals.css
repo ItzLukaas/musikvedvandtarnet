@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Musik ved Vandtårnet – plakatens farvepalet */
+    --background: 171 42% 28%;
+    --foreground: 0 0% 100%;
+    --accent-yellow: 40 77% 70%;
+    --accent-red: 2 62% 43%;
+    --illustration-light: 172 17% 52%;
+    --illustration-medium: 177 12% 82%;
+    --border: 171 35% 38%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+}
