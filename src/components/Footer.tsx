@@ -18,7 +18,7 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <Music className="h-5 w-5 text-accent-yellow" />
-              <h3 className="font-condensed font-bold text-xl text-white uppercase tracking-tight">
+              <h3 className="font-display font-bold text-xl text-white uppercase tracking-wide">
                 {siteConfig.brandName}
               </h3>
             </div>

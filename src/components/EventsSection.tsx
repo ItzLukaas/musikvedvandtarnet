@@ -15,7 +15,7 @@ export function EventsSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="font-condensed font-bold text-4xl sm:text-5xl md:text-6xl text-white uppercase tracking-tight mb-4">
+          <h2 className="font-display font-bold text-4xl sm:text-5xl md:text-6xl text-white uppercase tracking-wide mb-4">
             ARRANGEMENTER
           </h2>
           <p className="font-sans text-lg text-white/80 max-w-2xl mx-auto">
@@ -41,7 +41,7 @@ export function EventsSection() {
                       </div>
                     </div>
                     <div>
-                      <div className="font-condensed font-bold text-2xl sm:text-3xl text-white uppercase tracking-tight">
+                      <div className="font-display font-bold text-2xl sm:text-3xl text-white uppercase tracking-wide">
                         {event.date}
                       </div>
                       <div className="font-sans text-sm sm:text-base text-white/70 mt-1">
@@ -54,7 +54,7 @@ export function EventsSection() {
                     <div className="flex items-center gap-3">
                       <Music className="h-6 w-6 sm:h-7 sm:w-7 text-accent-yellow flex-shrink-0" />
                       <div>
-                        <div className="font-condensed font-semibold text-xl sm:text-2xl md:text-3xl text-white uppercase tracking-tight">
+                        <div className="font-display font-bold text-xl sm:text-2xl md:text-3xl text-white uppercase tracking-wide">
                           {event.artist}
                         </div>
                         {event.description && (

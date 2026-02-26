@@ -67,7 +67,7 @@ export function Header() {
       <nav className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
         <Link
           href="/"
-          className="flex items-center gap-2 text-[15px] font-condensed font-bold tracking-tight text-white uppercase transition-opacity hover:opacity-80"
+          className="flex items-center gap-2 text-[15px] font-display font-bold tracking-wide text-white uppercase transition-opacity hover:opacity-80"
         >
           <Music className="h-4 w-4 text-accent-yellow" aria-hidden />
           {brandName}
@@ -89,7 +89,7 @@ export function Header() {
         <div className="hidden md:block">
           <Link
             href="/#arrangementer"
-            className="inline-flex items-center gap-2 rounded-lg bg-accent-yellow px-4 py-2 text-sm font-condensed font-semibold text-background uppercase transition-opacity hover:opacity-90"
+            className="inline-flex items-center gap-2 rounded-lg bg-accent-yellow px-4 py-2 text-sm font-display font-bold text-background uppercase transition-opacity hover:opacity-90"
           >
             Arrangementer
           </Link>
@@ -130,7 +130,7 @@ export function Header() {
               <li className="mt-4 pt-4 border-t border-white/20">
                 <Link
                   href="/#arrangementer"
-                  className="flex items-center justify-center gap-2 rounded-lg bg-accent-yellow px-4 py-3 text-sm font-condensed font-semibold text-background uppercase hover:opacity-90"
+                  className="flex items-center justify-center gap-2 rounded-lg bg-accent-yellow px-4 py-3 text-sm font-display font-bold text-background uppercase hover:opacity-90"
                   onClick={() => setMenuOpen(false)}
                 >
                   Arrangementer

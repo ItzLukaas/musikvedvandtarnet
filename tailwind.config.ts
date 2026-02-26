@@ -19,11 +19,13 @@ const config: Config = {
         illustration: {
           light: 'hsl(var(--illustration-light))',
           medium: 'hsl(var(--illustration-medium))',
+          beige: 'hsl(var(--illustration-beige))',
         },
       },
       fontFamily: {
         sans: ['var(--font-dm-sans)', 'system-ui', 'sans-serif'],
         condensed: ['var(--font-rajdhani)', 'system-ui', 'sans-serif'],
+        display: ['var(--font-oswald)', 'system-ui', 'sans-serif'],
       },
     },
   },

@@ -4,14 +4,15 @@
 
 @layer base {
   :root {
-    /* Musik ved Vandtårnet – plakatens farvepalet */
-    --background: 171 42% 28%;
+    /* Plakat 1 & 2: dyb teal, mørkerød, guldbelg */
+    --background: 171 36% 30%;
     --foreground: 0 0% 100%;
-    --accent-yellow: 40 77% 70%;
-    --accent-red: 2 62% 43%;
+    --accent-yellow: 43 60% 60%;
+    --accent-red: 0 52% 35%;
     --illustration-light: 172 17% 52%;
-    --illustration-medium: 177 12% 82%;
-    --border: 171 35% 38%;
+    --illustration-medium: 177 24% 82%;
+    --illustration-beige: 35 35% 75%;
+    --border: 171 30% 38%;
   }
 }
 

@@ -21,7 +21,7 @@ export function MusicHero() {
           className="mb-8 inline-block"
         >
           <div className="relative bg-accent-red border-2 border-white px-6 py-4 sm:px-8 sm:py-5">
-            <div className="text-white font-condensed font-bold text-2xl sm:text-3xl md:text-4xl uppercase tracking-tight">
+            <div className="text-white font-display font-bold text-2xl sm:text-3xl md:text-4xl uppercase tracking-tight">
               MUSIK
             </div>
             <div className="text-accent-yellow font-condensed font-semibold text-sm sm:text-base md:text-lg uppercase tracking-wide mt-1">
@@ -37,7 +37,7 @@ export function MusicHero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="font-condensed font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-white uppercase tracking-tight leading-tight mb-6"
+          className="font-display font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-white uppercase tracking-wide leading-none mb-6"
         >
           SOMMER 2026
         </motion.h1>
@@ -57,7 +57,7 @@ export function MusicHero() {
           transition={{ duration: 0.6, delay: 0.6 }}
           className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6"
         >
-          <div className="bg-accent-yellow px-6 py-3 font-condensed font-bold text-background text-sm sm:text-base uppercase tracking-wide">
+          <div className="bg-accent-yellow px-6 py-3 font-display font-bold text-background text-sm sm:text-base uppercase tracking-wide">
             GRINDSTED VANDTÅRN
           </div>
         </motion.div>

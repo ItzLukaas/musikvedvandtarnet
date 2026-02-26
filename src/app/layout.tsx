@@ -1,9 +1,16 @@
 import type { Metadata, Viewport } from 'next';
-import { DM_Sans, Rajdhani } from 'next/font/google';
+import { DM_Sans, Rajdhani, Oswald } from 'next/font/google';
 import './globals.css';
 import { siteConfig } from '@/content/data';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
+
+const oswald = Oswald({
+  subsets: ['latin'],
+  weight: ['400', '600', '700'],
+  variable: '--font-oswald',
+  display: 'swap',
+});
 
 const rajdhani = Rajdhani({
   subsets: ['latin'],
@@ -21,7 +28,7 @@ const dmSans = DM_Sans({
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
-  themeColor: '#2E5F57',
+  themeColor: '#2F635D',
 };
 
 export const metadata: Metadata = {
@@ -45,7 +52,7 @@ export default function RootLayout({
   return (
     <html
       lang="da"
-      className={`${rajdhani.variable} ${dmSans.variable} scroll-smooth`}
+      className={`${oswald.variable} ${rajdhani.variable} ${dmSans.variable} scroll-smooth`}
       suppressHydrationWarning
     >
       <body className="min-h-screen font-sans antialiased bg-background text-foreground overflow-x-hidden">
